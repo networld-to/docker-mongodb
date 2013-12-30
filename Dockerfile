@@ -1,7 +1,4 @@
 #################################################################
-# This docker image build file creates an image that contains
-# nginx, passenger, rvm with ruby on rails.
-#
 #                    ##        .
 #              ## ## ##       ==
 #           ## ## ## ##      ===
@@ -11,7 +8,7 @@
 #         \    \        __/
 #          \____\______/
 #
-# Component:    docker-base
+# Component:    networld/mongodb
 # Author:       Alex Oberhauser <alex.oberhauser@networld.to>
 # Copyright:    (c) 2013-2014 Sigimera Ltd. All rights reserved.
 #################################################################
