@@ -18,8 +18,8 @@ Start a container with:
 Use mongodb from other container:
 
         $ docker run -link=mongodb:mongo -i -t ubuntu /bin/bash
-        $ echo $MONGO_PORT_5672_TCP_PORT
-        $ echo $MONGO_PORT_5672_TCP_ADDR
+        $ echo $MONGO_PORT_27017_TCP_PORT
+        $ echo $MONGO_PORT_27017_TCP_ADDR
 
 ## License
 
